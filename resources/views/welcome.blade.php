@@ -4,10 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Tarea 1 - IGLESIAS JOSE ENRIQUE</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="<?php echo asset('css/bootstrap.min.css')?>">
+        <script src="<?php echo asset('js/jquery.min.js')?>"></script>
 
         <!-- Styles -->
         <style>
@@ -21,7 +24,7 @@
             }
 
             .full-height {
-                height: 100vh;
+                height: 90vh;
             }
 
             .flex-center {
@@ -44,14 +47,18 @@
                 text-align: center;
             }
 
-            .title {
-                font-size: 84px;
+            .title_1 {
+                font-size: 80px;
+            }
+
+            .title_2 {
+                font-size: 60px;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #2D69C1;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 25px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -80,19 +87,16 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="title_1 m-b-md">
+                    Diplomado en Desarrollo Web Full Stack
+                </div>
+                <div class="title_2 m-b-md">
+                    Tarea 1 - IGLESIAS JOSE ENRIQUE
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <button type = "button" onclick = "location.href = 'Ejercicio1'" class = "btn btn-primary btn-lg">EJERCICIO 1</button>
+                    <button type = "button" onclick = "location.href = 'Ejercicio2'" class = "btn btn-success btn-lg">EJERCICIO 2</button>
                 </div>
             </div>
         </div>

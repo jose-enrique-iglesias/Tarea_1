@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/Ejercicio1', 'ControllerTarea1@vistaEjercicio1')->name('Tarea1.Ejercicio1');
+Route::get('/Ejercicio2', 'ControllerTarea1@vistaEjercicio2')->name('Tarea1.Ejercicio2');
+Route::post('/Ejercicio1', 'ControllerTarea1@numeroMayor')->name('Tarea1.numeroMayor');
+Route::post('/Ejercicio2', 'ControllerTarea1@numeroCadena')->name('Tarea1.numeroCadena');
